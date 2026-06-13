@@ -33,4 +33,4 @@
         - name: Notify ntfy.sh
           run: curl -d "New deployment live on Practica4!" https://ntfy.sh/devops-itla
 
-//20187044
+// This workflow will build the site using a Python script and deploy it to Cloudflare Pages whenever there is a push to the main branch. It also sends a notification to ntfy.sh after a successful deployment. Make sure to set the required secrets in your GitHub repository for the Cloudflare API token, account ID, and GitHub token.
